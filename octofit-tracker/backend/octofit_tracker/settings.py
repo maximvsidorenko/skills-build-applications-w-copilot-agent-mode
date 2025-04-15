@@ -131,3 +131,8 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Add CORS_ALLOWED_ORIGINS to allow requests from the frontend
+CORS_ALLOWED_ORIGINS = [
+    "https://silver-space-journey-wr4rgx4r55pcj6r-3000.app.github.dev",
+]
