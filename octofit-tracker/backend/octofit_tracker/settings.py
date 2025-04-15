@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-7yhe%-m*zi&4!x5$v1%qks%gg9a!a3na=4js1!(ij^@otal=jr
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS.append('silver-space-journey-wr4rgx4r55pcj6r-8000.app.github.dev')
 
 
 # Application definition
